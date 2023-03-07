@@ -1,0 +1,154 @@
+body{
+    background-color: #f4f6f9;
+}
+
+.content-wrapper>.content{
+    padding: 0  0rem 4rem .5rem;
+}
+/*General typography*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+}
+
+/*End General typography*/
+/*Admin Sidebar*/
+.sidebar-dark-warning .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-warning .nav-sidebar>.nav-item>.nav-link.active{
+    background-color: #FFC100;
+}
+/*End Admin sidebar*/
+
+/*Form style*/
+.form-control{
+    border-width: 2px;
+}
+.form-control:focus {
+    background-color: #fff;
+    border-color: #2d5785;
+    border-width: 2px;
+}
+.login-card-body .input-group .form-control:focus~.input-group-append .input-group-text, .login-card-body .input-group .form-control:focus~.input-group-prepend .input-group-text, .register-card-body .input-group .form-control:focus~.input-group-append .input-group-text, .register-card-body .input-group .form-control:focus~.input-group-prepend .input-group-text{
+    background-color: #fff;
+    border-color: #2d5785;
+    border-width: 2px;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-width: 2px;
+}
+/*End Form Style*/
+/*datatable */
+.dataTables_wrapper .dt-buttons{
+    float: left;
+    padding: 1rem;
+}
+.dataTables_wrapper .dataTables_filter{
+    padding: 1rem;
+}
+.dataTables_wrapper .btn-secondary{
+    background-color: #6c757d;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.table .btn-group{
+ border-radius: 5px;
+}
+.table .btn-group .btn-default:nth-of-type(1){
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem;
+}
+.table .btn-group .btn-default:nth-of-type(2){
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 0.5rem;
+}
+.table .btn-group .btn-danger{
+    background-color: #dc3545;
+    color: #fff;
+    padding: 0.5rem;
+}
+.table .btn-group .dropdown-menu.show{
+    transform: translate3d(-50px, 40px, 0px) !important;
+}
+.table .btn-group .dropdown-item{
+    text-align: right;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #FFC100;
+}
+/**/
+.ribbon-wrapper {
+    right: 7px;
+}
+.rupee span{
+    margin: 1px;
+    padding: 1px 17px 3px 0px;
+    border-radius: 19px;
+}
+.rupee span i{
+    padding: 7px 13px;
+}
+.trip-category{
+    background-color: #FFC100;
+    text-align: center;
+    position: absolute;
+    top: -52px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+
+.select2-container .select2-selection--single {
+    height: 38px;
+}
+.select2-container--default .select2-selection--single {
+    border: 2px solid #ced4da
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--single {
+    border-color: #2d5785;
+    border-width: 2px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[aria-selected]:hover{
+    background-color: #FFC100;
+}
+.select2-container--default .select2-dropdown .select2-search__field:focus, .select2-container--default .select2-search--inline .select2-search__field:focus {
+    outline: 0;
+    border: 2px solid #2d5785;
+}
+.select2-container--default.select2-container--open .select2-selection--single{
+    border-color: #2d5785;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 21px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 6px;
+}
+/*tr td:first-child:before*/
+/*{*/
+/*    counter-increment: Serial;*/
+
+/*    content: counter(Serial);*/
+/*    counter-reset: none;*/
+/*}*/
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #ffc107;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: default;
+    color: #000;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.select2-container--default .select2-selection--multiple{
+    border:2px solid #ced4da;
+}
